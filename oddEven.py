@@ -7,5 +7,10 @@ def oddEven(n,what):
   if what == "even":
     for i in range(1, num+1):
       print( 2 * i)
+      
+      
+n = int(input("Enter The No."))
+what = input("Odd or Even")
+what.lower()
 
-oddEven(50,"even")
+oddEven(n,what)
